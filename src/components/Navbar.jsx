@@ -3,22 +3,14 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    // <div className="navbar bg-base-100 shadow-sm">
-    //   <div className="text-xl font-semibold px-4">JCM</div>
-    //   <a className="btn btn-ghost text-md">Home</a>
-    //   <a className="btn btn-ghost text-md">About</a>
-    //   <a className="btn btn-ghost text-md">Projects</a>
-    //   <a className="btn btn-ghost text-md">Contact</a>
-    //   <a href=""> <i className="fa fa-bars"></i> </a>
-    // </div>
     <div className="navbar bg-base-100 shadow-sm">
       <div className="navbar-start">
         <div className="text-xl font-semibold px-4">JCM</div>
       </div>
 
       <div className="navbar-center hidden lg:flex">
-        <a className="btn btn-ghost text-md">Home</a>
-        <a className="btn btn-ghost text-md">About</a>
+        <a href="/" className="btn btn-ghost text-md">Home</a>
+        <a href="/About" className="btn btn-ghost text-md">About</a>
         <a className="btn btn-ghost text-md">Projects</a>
         <a className="btn btn-ghost text-md">Contact</a>
       </div>
