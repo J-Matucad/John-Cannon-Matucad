@@ -25,9 +25,17 @@ const Navbar = () => {
 
       <div className="navbar-end px-3">
         <div className="hidden lg:flex">
-          <i className="mx-2 fab fa-facebook-square text-[25px]"></i>
-          <i className="mx-2 fab fa-linkedin text-[25px]"></i>
-          <i className="mx-2 fab fab fa-github-square text-[25px]"></i>
+          <a href="https://www.facebook.com/xenon28">
+            <i className="mx-2 fab fa-facebook-square text-[25px]"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/john-cannon-matucad-a37b782b4">
+            <i className="mx-2 fab fa-linkedin text-[25px]"></i>
+          </a>
+
+          <a href="https://github.com/J-Matucad">
+            <i className="mx-2 fab fab fa-github-square text-[25px]"></i>
+          </a>
         </div>
         <div className="dropdown dropdown-end relative lg:hidden">
           <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -50,13 +58,15 @@ const Navbar = () => {
               <a>Contact</a>
             </li>
             <li>
-              <a>Facebook</a>
+              <a href="https://www.facebook.com/xenon28">Facebook</a>
             </li>
             <li>
-              <a>Linkedin</a>
+              <a href="https://www.linkedin.com/in/john-cannon-matucad-a37b782b4">
+                Linkedin
+              </a>
             </li>
             <li>
-              <a>Github</a>
+              <a href="https://github.com/J-Matucad">Github</a>
             </li>
           </ul>
         </div>
