@@ -35,7 +35,9 @@ const Home = () => {
           />
         </div>
       </div>
-      <About/>
+      <section id="about">
+        <About />
+      </section>
     </div>
   );
 };

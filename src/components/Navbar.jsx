@@ -13,7 +13,7 @@ const Navbar = () => {
         <a href="/" className="btn btn-ghost text-md">
           Home
         </a>
-        <a href="/About" className="btn btn-ghost text-md">
+        <a href="#about" className="btn btn-ghost text-md">
           About
         </a>
         <a className="btn btn-ghost text-md">Projects</a>
