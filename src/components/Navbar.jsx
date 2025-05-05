@@ -1,5 +1,6 @@
 // src/components/Navbar.jsx
 import React from "react";
+import ThemeToggleButton from './ThemeToggleButton';
 
 const Navbar = () => {
   return (
@@ -9,14 +10,19 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-center hidden lg:flex">
-        <a href="/" className="btn btn-ghost text-md">Home</a>
-        <a href="/About" className="btn btn-ghost text-md">About</a>
+        <a href="/" className="btn btn-ghost text-md">
+          Home
+        </a>
+        <a href="/About" className="btn btn-ghost text-md">
+          About
+        </a>
         <a className="btn btn-ghost text-md">Projects</a>
         <a className="btn btn-ghost text-md">Contact</a>
       </div>
 
       <div className="navbar-end px-3">
         <div className="hidden lg:flex">
+        <ThemeToggleButton />
           <a href="https://www.facebook.com/xenon28">
             <i className="mx-2 fab fa-facebook-square text-[25px]"></i>
           </a>
@@ -31,7 +37,7 @@ const Navbar = () => {
         </div>
         <div className="dropdown dropdown-end relative lg:hidden">
           <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
-            <i className="fas fa-hamburger"></i>
+            <i class="fas fa-bars text-[25px]"></i>
           </div>
           <ul
             tabIndex={0}
