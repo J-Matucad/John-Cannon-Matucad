@@ -1,17 +1,6 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "App.jsx",
-        "use": "@vercel/node"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/App.jsx"
-      }
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/" }
     ]
-
   }
   
