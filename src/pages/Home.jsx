@@ -1,40 +1,39 @@
 import React from "react";
 import Navbar from "../components/Navbar.jsx";
-import Avatar from "../assets/avatar.png";
 import AnimatedText from "../components/AnimatedText.jsx";
 import About from "../components/About.jsx";
+import TypewriterText from "../components/TypewriterText.jsx";
 
 const Home = () => {
   return (
     <div>
       <Navbar />
-      <div className="grid grid-cols-12 gap-1 w-full">
-        <div className="col-span-12 md:col-span-5 p-6 m-4 flex flex-row items-center justify-center">
-          <img
-            src={Avatar}
-            alt="Avatar"
-            className="w-full aspect-square rounded object-cover"
-          />
-        </div>
 
-        <div className="col-span-12 md:col-span-7 p-6 m-4 place-content-center">
-          <AnimatedText
-            speed={30}
-            scrambleSpeed={30}
-            className="text-2xl md:text-3xl font-semibold text-left text-gray-400 drop-shadow-lg mb-3"
-            text={`Building my Future,\nOne Line of Code at a Time`}
-          />
+      <section id="home">
+        <div className="h-full md:h-screen grid grid-cols-12 gap-1 w-full">
+          <div className="col-span-12 md:col-span-12 p-6 mx-7 md:place-content-center md:my-0 my-12">
+            <h1 className="text-2xl md:text-3xl font-semibold text-left text-black-400 drop-shadow-lg mb-3">
+              What's up?
+            </h1>
+            <h1 className="text-2xl md:text-5xl font-semibold text-left text-black-400 drop-shadow-lg mb-3">
+              I'm John Cannon Matucad
+            </h1>
 
-          <AnimatedText
-            speed={30}
-            scrambleSpeed={30}
-            className="text-lg text-left text-gray-400 drop-shadow-lg mb-0"
-            text={`Hi, I'm John Cannon Matucad, a full-stack desktop and web developer
-              passionate about creating seamless, dynamic web experiences. Let's
-              innovate together.`}
-          />
+            <TypewriterText
+              speed={100}
+              pause={1500}
+              className="text-2xl md:text-5xl font-semibold text-left text-gray-400 drop-shadow-lg mb-3"
+            />
+
+            <h1 className="text-sm md:text-lg w-full md:w-200 font-semibold text-left text-gray-400 drop-shadow-lg mb-3">
+              Information Technology Graduate from Polytechnic University of the
+              Philippines Biñan Campus who loves building tools to solve
+              real-world problems. I enjoy taking on challenges that push me to
+              learn new skills while creating solutions that matter.
+            </h1>
+          </div>
         </div>
-      </div>
+      </section>
       <section id="about">
         <About />
       </section>

@@ -1,6 +1,6 @@
 // src/components/Navbar.jsx
 import React from "react";
-import ThemeToggleButton from './ThemeToggleButton';
+import ThemeToggleButton from "./ThemeToggleButton";
 
 const Navbar = () => {
   return (
@@ -22,7 +22,7 @@ const Navbar = () => {
 
       <div className="navbar-end px-3">
         <div className="hidden lg:flex">
-        <ThemeToggleButton />
+          <ThemeToggleButton />
           <a href="https://www.facebook.com/xenon28">
             <i className="mx-2 fab fa-facebook-square text-[25px]"></i>
           </a>
