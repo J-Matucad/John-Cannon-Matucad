@@ -26,7 +26,7 @@ const Profile = () => {
                       </div>
                       <div className="inline-grid w-full grid-cols-5 gap-2">
                         <div>
-                          <ButtonWithShadow href="https://linkedin.com/in/john-cannon-matucad">
+                          <ButtonWithShadow href="https://github.com/J-Matucad">
                             <i className="mx-2 fab fa-github text-[18px]"></i>
                           </ButtonWithShadow>
                         </div>
@@ -36,12 +36,12 @@ const Profile = () => {
                           </ButtonWithShadow>
                         </div>
                         <div>
-                          <ButtonWithShadow href="https://www.facebook.com/xenon28">
+                          <ButtonWithShadow href="https://www.linkedin.com/in/john-cannon-matucad-a37b782b4">
                             <i className="mx-2 fab fa-linkedin text-[18px]"></i>
                           </ButtonWithShadow>
                         </div>
                         <div className="col-span-2">
-                          <ButtonWithShadow href="https://www.linkedin.com/in/john-cannon-matucad-a37b782b4">
+                          <ButtonWithShadow href="https://drive.google.com/file/d/1xHZc9v-G9FupbRj_qExh1w0s1Z2jn1_8/view?usp=drive_link">
                             <p className="text-[12px] md:text-[18px]">Download CV</p>
                           </ButtonWithShadow>
                         </div>
@@ -125,17 +125,17 @@ const Profile = () => {
                         <p className="text-[8px]">Mysql</p>
                       </ButtonWithShadow>
                       
-                      <ButtonWithShadow href="#" className="flex flex-col">
+                      <ButtonWithShadow href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" className="flex flex-col">
                         <i className="mx-2 fab fa-bootstrap text-[18px]"></i>
                         <p className="text-[8px]">Bootstrap</p>
                       </ButtonWithShadow>
                       
-                      <ButtonWithShadow href="https://dotnet.microsoft.com/en-us/languages/csharp" className="flex flex-col">
+                      <ButtonWithShadow href="https://tailwindcss.com/" className="flex flex-col">
                         <i className="mx-2 fas fa-code text-[18px]"></i>
                         <p className="text-[8px]">Tailwind</p>
                       </ButtonWithShadow>
                       
-                      <ButtonWithShadow href="https://github.com/" className="flex flex-col">
+                      <ButtonWithShadow href="https://git-scm.com/" className="flex flex-col">
                         <i className="mx-2 fab fa-git text-[18px]"></i>
                         <p className="text-[8px]">Git</p>
                       </ButtonWithShadow>
