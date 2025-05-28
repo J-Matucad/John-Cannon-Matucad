@@ -152,7 +152,7 @@ const Profile = () => {
 
             <div className="row-span-1">
               <div className="h-full">
-                <BentoDiv py="2" px="4">
+                <BentoDiv>
                     <h1 className="font-bold text-[20px] self-center">Projects</h1>
                     <i className="fas fa-long-arrow-alt-up self-center transform rotate-[45deg]"></i>
                 </BentoDiv>
