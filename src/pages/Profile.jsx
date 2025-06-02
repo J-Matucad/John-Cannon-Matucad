@@ -41,7 +41,7 @@ const Profile = () => {
                           </ButtonWithShadow>
                         </div>
                         <div className="col-span-2">
-                          <ButtonWithShadow href="https://drive.google.com/file/d/1xHZc9v-G9FupbRj_qExh1w0s1Z2jn1_8/view?usp=drive_link">
+                          <ButtonWithShadow href="https://drive.google.com/file/d/1nEbyNiSeB3YH6Qdg9Td5Zn4gF9NYkV4-/view?usp=sharing">
                             <p className="text-[12px] md:text-[18px]">Download CV</p>
                           </ButtonWithShadow>
                         </div>
